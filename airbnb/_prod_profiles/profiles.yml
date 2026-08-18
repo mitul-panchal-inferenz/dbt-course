@@ -3,7 +3,7 @@ airbnb:
     dev:
       type: snowflake
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      user: "{{ env_var('DBT_USER') }}"
 
       role: TRANSFORM
       private_key: "{{ env_var('PRIVATE_KEY') }}"                    
@@ -16,7 +16,7 @@ airbnb:
     staging:
       type: snowflake
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      user: "{{ env_var('DBT_USER') }}"
 
       role: TRANSFORM
       private_key: "{{ env_var('PRIVATE_KEY') }}"                    
@@ -29,7 +29,7 @@ airbnb:
     prod:
       type: snowflake
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      user: "{{ env_var('DBT_USER') }}"
 
       role: TRANSFORM
       private_key: "{{ env_var('PRIVATE_KEY') }}"                    
