@@ -8,5 +8,5 @@ dbt.log
 env.ps1
 
 
-_course_resources
-.devcontainer
+_course_resources/
+.devcontainer/
