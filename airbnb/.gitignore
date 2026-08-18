@@ -1,0 +1,12 @@
+
+target/
+dbt_packages/
+logs/
+dbt_internal_packages/
+
+dbt.log
+env.ps1
+profiles.yml
+
+_course_resources
+.devcontainer
